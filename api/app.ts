@@ -7,7 +7,7 @@ import cors from 'cors';
 import path from 'path';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
-import authRoutes from './routes/auth.js';
+import authRoutes from './routes/auth';
 import productRoutes from './routes/products.js';
 import userRoutes from './routes/users.js';
 import categoryRoutes from './routes/categories.js';
